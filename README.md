@@ -1,3 +1,10 @@
-https://linuxconfig.org/how-to-create-package-and-sign-a-firefox-web-extension
+Uzywane na chrome (niestety)
 
-tutek z którego korzystałem
+Załączenie rozszerzenia
+
+1) chrome://extensions
+2) developer mode - on
+3) load unpacked - i robimy open gdy się znajdziemy w folderze
+4) powinna się pojawić rozszerzenie  na pasku - jeśli nie widzisz kliknij na puzzel
+powinna się wyświetlić lista rozszerzeń i tam nasze
+
