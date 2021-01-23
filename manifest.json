@@ -4,12 +4,9 @@
   "version": "0.1",
   "author": "Hamilkar Barkas",
   "description": "Translate website on sideView",
-  "icons": "{
-    "48": "icons/logo.jpg"
-  },
-
-  "permissions": ["contextMenus"],
-  "background": {
-    "scripts": ["background.js"]
-  }
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+  ]
 }
